@@ -21,6 +21,6 @@ export default {
 	display: flex;
 	justify-content: center;
 	margin: auto;
-	padding-bottom: 2rem;
+	padding: 3rem;
 }
 </style>

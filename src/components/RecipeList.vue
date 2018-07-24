@@ -8,11 +8,11 @@
 		<div v-if="!loading" class="content">
 			<ul>
 				<li v-for="freshRecipe in recipes.topRecipeList" :key="freshRecipe.id">
-					<a href="#">{{ freshRecipe.title }}</a>
+					<a href="#" @click="goBack">{{ freshRecipe.title }}</a>
 				</li>
 
 				<li v-for="oldRecipe in recipes.bottomRecipeList" :key="oldRecipe.id">
-					<a href="#">{{ oldRecipe.title }}</a>
+					<a href="#" @click="goBack">{{ oldRecipe.title }}</a>
 				</li>
 			</ul>
 		</div>

@@ -1,7 +1,7 @@
 <template>
 	<div class="home">
 		<button class="main-button" @click="goToList">
-			<label>{{buttonLabel}}</label>
+			<label>Whats for lunch</label>
 		</button>
 	</div>
 </template>
@@ -10,11 +10,6 @@
 
 export default {
 	name: 'Home',
-	props: [ 'buttonLabel' ],
-	mounted: function () {
-		// Instantiate
-		this.buttonLabel = 'Whats for lunch';
-	},
 	methods: {
 		goToList: function () {
 			this.$router.push('/recipes');
