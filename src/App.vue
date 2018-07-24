@@ -1,6 +1,5 @@
 <template>
 	<div id="app">
-		<h1>Recipe List</h1>
 		<router-view/>
 	</div>
 </template>
@@ -18,6 +17,10 @@ export default {
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;
 	color: #2c3e50;
-	margin-top: 60px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding-bottom: 2rem;
 }
 </style>
