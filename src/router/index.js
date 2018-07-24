@@ -6,16 +6,16 @@ import RecipeList from '@/components/RecipeList'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Home',
-      component: Home
-    },
-    {
-      path: '/recipes',
-      name: 'RecipeList',
-      component: RecipeList
-    }
-  ]
+	routes: [
+		{
+			path: '/',
+			name: 'Home',
+			component: Home
+		},
+		{
+			path: '/recipes',
+			name: 'RecipeList',
+			component: RecipeList
+		}
+	]
 })
