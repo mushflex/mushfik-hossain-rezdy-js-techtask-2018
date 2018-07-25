@@ -28,8 +28,7 @@ export default {
 		return {
 			loading: true,
 			recipes: null,
-			ingredients: null,
-			error: null
+			ingredients: null
 		}
 	},
 	async created () {
