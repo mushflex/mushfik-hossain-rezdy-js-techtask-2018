@@ -6,7 +6,7 @@
 		</div>
 
 		<div v-if="!loading" class="content">
-			<ul>
+			<ul v-if="recipes != null" class="recipe-list__list">
 				<li v-for="freshRecipe in recipes.topRecipeList" :key="freshRecipe.id">
 					<a href="#" @click="goBack">{{ freshRecipe.title }}</a>
 				</li>

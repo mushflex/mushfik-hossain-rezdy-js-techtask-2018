@@ -2,6 +2,12 @@ import Vue from 'vue'
 import Home from '@/components/Home'
 
 describe('Home.vue', () => {
+	it('has the expected html structure', () => {
+		const Constructor = Vue.extend(Home);
+		const vm = new Constructor().$mount();
+		expect(vm.$el).toMatchSnapshot();
+	})
+
 	it('should render button', () => {
 		const Constructor = Vue.extend(Home)
 		const btnLabel = 'Whats for lunch'

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipeList.vue has the expected html structure 1`] = `
+<div
+  class="recipe-list"
+>
+  <h1>
+    Recipe List
+  </h1>
+   
+  <div
+    class="loading"
+  >
+    
+		Loading...
+	
+  </div>
+   
+  <!---->
+</div>
+`;
